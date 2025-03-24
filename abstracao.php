@@ -9,7 +9,7 @@ abstract class Pessoa{
 
 class Aluno extends Pessoa{
 }
-$nicolly =new Aluno ("Nicolly" );
-echo $nicolly->nome . "É ele";
+$nicolly = new Aluno ("Nicolly");
+echo $nicolly->nome ."É ele";
 
 ?>
