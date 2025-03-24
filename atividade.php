@@ -33,7 +33,7 @@ class Professor extends Pessoa{
 class Diretor extends Pessoa{
     public function falar()
     {
-        echo "Oi! Meu nome é {$this->nome} e sou Diretor.<br>";
+        echo "Oi! Meu nome é {$this->nome} e sou Diretora.<br>";
     }
 }
 
@@ -49,21 +49,26 @@ $nicolly = new Aluno ("Nicolly", "Biologia", 10);
 $ray = new Aluno ("Rayane", "Lingua Portuguesa", 10);
 $mel = new Aluno ("Melissa", "História", 7);
 
-$guilherme = new Professor ("Pedro", "Lingua Portuguesa", 7);
-$sonia = new Professor ("Andresa", "Matemática", 5);
-$re = new Professor ("Sérgio", "Biologia", 7.5);
-$joa = new Professor ("Bruno", "História", 8);
+$pedro = new Professor ("Pedro", "Lingua Portuguesa", 7);
+$andresa = new Professor ("Andresa", "Matemática", 5);
+$sergio = new Professor ("Sérgio", "Biologia", 7.5);
+$bru = new Professor ("Bruno", "História", 8);
 
-$ro = new Diretor ("Roberta", "Diretora", 4.5);
+$val = new Diretor ("Valéria", "Diretora", 4.5);
 
-$val = new Funcionario ("Valéria", "Diretora do ensino médio", 8);
-$fabiana = new Funcionario ("Fabiana", "Coordenadora do ensino fundamental II", 5);
+$ro = new Funcionario ("Roberta", "Coordenadora do ensino médio", 8);
+$jo = new Funcionario ("Joelma", "Coordenadora do ensino fundamental ", 5);
 
 
 echo $natalia -> falar();
 echo $nicolly -> falar();
 echo $ray -> falar();
 echo $mel -> falar();
+echo$val -> falar();
+echo$ro -> falar();
+echo$jo -> falar();
+echo$val -> falar();
+
 
 
 ?>
